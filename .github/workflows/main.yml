@@ -1,0 +1,10 @@
+name: ArgoCD Test
+
+on: [push]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: start
+      run: echo "argocd push!"
